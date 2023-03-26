@@ -22,10 +22,15 @@
     color:white; 
     background-color: transparent;
     font-size: 20px;
-    height: 43px;
-    width: 36px;
-    margin: 2px;
+    height: 47px;
+    width: 35px;
 }
+
+.expand{
+    padding-left: 0px;
+}
+
+
 
 .empty {
     display: flex;
