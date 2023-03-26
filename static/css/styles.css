@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .player {
-    width: 800px; 
+    width: 800px;
     height: 600px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
 }
@@ -20,16 +20,16 @@
 }
 
 .control-button {
-    border-style: none; 
-    cursor: pointer; 
-    color:white; 
+    border-style: none;
+    cursor: pointer;
+    color: white;
     background-color: transparent;
     font-size: 20px;
     height: 47px;
     width: 35px;
 }
 
-.expand{
+.expand {
     padding-left: 0px;
 }
 
@@ -40,30 +40,32 @@
     display: flex;
     padding-left: 3px;
     padding-right: 4px;
-  }
-  
+}
+
 .progress-bar-wrapper .player-progress-bar {
     flex-grow: 1;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
     align-items: center;
-  }
+}
 
 .progress {
     background-color: transparent;
     flex-grow: 1;
     display: flex;
     align-items: center;
-  }
-  
+}
+
 .progress-slider {
     background-color: red;
     height: 5px;
     border-radius: 2px;
-  }
-  
+}
+
 .circle-slider {
+    transition: all 350ms ease-out;
+    opacity: 0;
     height: 8px;
     width: 8px;
     background-color: red;
@@ -71,4 +73,16 @@
     border: 3px solid white;
     border-radius: 50%;
     display: inline-block;
-  }
+}
+
+.progress:hover .circle-slider {
+    transition: all 350ms ease-in;
+    opacity: 1;
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
