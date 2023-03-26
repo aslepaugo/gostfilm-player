@@ -29,6 +29,10 @@
     width: 35px;
 }
 
+.control-button:focus{
+    outline: none;
+}
+
 .expand {
     padding-left: 0px;
 }
