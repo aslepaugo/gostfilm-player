@@ -4,7 +4,8 @@ It's a project based on implementation of videoplayer by dvmn https://github.com
 
 ## Current implementation
 
-[placeholder for screenshot]
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/17562496/223412845-ee56d266-dfc8-4165-bea6-e9d3a7eaf1bd.png">
+
 
 Demo version is available [here](https://aslepaugo.github.io/gostfilm-player/).
 
