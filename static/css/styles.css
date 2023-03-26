@@ -64,7 +64,7 @@
 }
 
 .circle-slider {
-    transition: all 350ms ease-out;
+    transition: all 250ms ease-out;
     opacity: 0;
     height: 8px;
     width: 8px;
@@ -73,10 +73,11 @@
     border: 3px solid white;
     border-radius: 50%;
     display: inline-block;
+    margin-left: -6px;
 }
 
 .progress:hover .circle-slider {
-    transition: all 350ms ease-in;
+    transition: all 250ms ease-in;
     opacity: 1;
     height: 8px;
     width: 8px;
@@ -85,4 +86,5 @@
     border: 3px solid white;
     border-radius: 50%;
     display: inline-block;
+    margin-left: -6px;
 }
